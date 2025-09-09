@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("diabetes_model.pkl")
 
 # Page config
-st.set_page_config(page_title="Diabetes Prediction | Samar Abbas", layout="centered", page_icon="🩺")
+st.set_page_config(page_title="Diabetes Prediction | Mehak Naz", layout="centered", page_icon="🩺")
 
 # --- Custom Styling ---
 st.markdown("""
@@ -58,15 +58,15 @@ st.sidebar.markdown("""
 Developed using machine learning techniques.  
 Enter patient details to predict whether they have diabetes.
 
-**👨‍💻 By:** Samar Abbas  
+**👨‍💻 By:** Mehak Naz  
 **🎓 BSCS - University of Narowal**
 """)
-st.sidebar.info("Supervised by: **Mr Haseeb Aslam**")
+st.sidebar.info("Supervised by: **Mehak Naz**")
 
 # Title
 st.markdown('<div class="title-text">🩺 Diabetes Prediction App</div>', unsafe_allow_html=True)
 st.markdown("""
-    <h4 style='text-align: center;'>A Machine Learning Project by: <strong>Samar Abbas</strong></h4>
+    <h4 style='text-align: center;'>A Machine Learning Project by: <strong>Mehak Naz</strong></h4>
 """, unsafe_allow_html=True)
 
 # Sample input values
@@ -158,4 +158,5 @@ if st.button("🔍 Predict"):
 
 # Footer
 st.markdown("---")
-st.caption("🌟 Created with ❤️ by Samar Abbas | Using Scikit-learn & Streamlit")
+
+st.caption("🌟 Created with ❤️ by Mehak Naz | Using Scikit-learn & Streamlit")
